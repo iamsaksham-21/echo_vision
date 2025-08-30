@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0b0c28, #010101);
+    color: white;
+    line-height: 1.6;
+    background: url('tools/ChatGPT Image Apr 11, 2025, 05_28_51 AM.png');
+  }
+
+  header {
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .login-btn {
+    padding: 8px 18px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 120px 20px 80px;
+    background: url('https://i.pinimg.com/originals/59/b6/03/59b6032d441cd3492192f8a0f0f28b7c.jpg') no-repeat center/cover;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  .cta-btn {
+    background-color: #2a2aff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .services {
+    padding: 80px 10%;
+    background-color: #0b0c28;
+    text-align: center;
+  }
+
+  .services h2 {
+    color: #66aaff;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+  }
+
+  .service-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .item {
+    flex: 1 1 250px;
+    padding: 20px;
+  }
+
+  .item h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+
+  .item p {
+    color: #ccc;
+    font-size: 14px;
+  }
+
+  .analysis {
+    padding: 100px 10%;
+    background: url('https://cdn.dribbble.com/userupload/11038213/file/original-9a0f194e2892e10ebff4f24abfa417c1.png?resize=2048x1536') no-repeat center/cover;
+  }
+
+  .analysis h4 {
+    color: #66aaff;
+    margin-bottom: 20px;
+  }
+
+  .analysis h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+  }
+
+  .analysis p {
+    color: #ccc;
+    max-width: 600px;
+    font-size: 15px;
+  }
+
+  .contact-right p,
+  .contact-info h4,
+  .contact-info a {
+    color: #ccc; /* softer white for readability */
+  }
+  
+  .contact-info {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info div,
+  .contact-info form {
+    flex: 1 1 45%;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 14px;
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  form button {
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #ddd;
+  }
+
+  

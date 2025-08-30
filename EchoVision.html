@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pyscript</title>
+    <!-- link cdn file -->
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div><alt="Logo" height="30"><b><i>EchoVision</i></b></div>
+        <nav>
+          <ul>
+            <li><a href="#About">About us</a></li>
+            <li><a href="#Contact">Contact us</a></li>
+            <li><a href="#Help">Help</a></li>
+          </ul>
+        </nav>
+        
+      </header>
+    
+      <section class="hero" >
+        <h1 style="font-size: 4rem; font-family: 'Times New Roman', Times, serif;">Where Voice Meets Vision<br><b><i>EchoVision</i></b></h1>
+        <a href="VoiceAssistant.html"><button class="cta-btn" id="getStartedBtn">Get Started Now</button></a>
+      </section>
+    
+      <section class="services" id="About">
+        <h2>ABOUT US</h2>
+        <div class="service-items">
+          <div class="item">
+            <h1>EchoVision</h1>
+            <p>At EchoVision, we’re redefining how humans interact with technology. Our AI-powered voice assistant with an integrated camera isn't just smart — it sees, listens, and understands. Designed for the future, EchoVision helps you manage tasks, control your smart home, connect with others, and stay secure — all through a single voice command.</p>
+          </div>
+          <div class="item">
+            <h1>Our Mission</h1>
+            <p>Millions of visually impaired individuals face daily challenges navigating unfamiliar environments.At EchoVision, our mission is to bridge that gap — by delivering an affordable, intelligent voice assistant with built-in visual awareness. We aim to empower users with seamless voice-guided support, bringing confidence, safety, and independence into their everyday lives.</p>
+          </div>
+          <div class="item">
+            <h1>Target Audience</h1>
+            <p> Visually impaired individuals face challenges in navigating unfamiliar environments.
+                Existing assistive tools are limited in real-time feedback and contextual awareness.
+                There's a need for affordable, intelligent solutions that offer voice-guided help.EchoVision is designed to fit into your world and make it smoother, smarter, and more intuitive.</p>
+          </div>
+        </div>
+      </section>
+    
+      <section class="analysis" id="Contact">
+        <h4>SIGN UP WITH US</h4>
+        <h2>Echovision helps you see and hear the world more clearly — your voice, it's vision, perfectly in sync.</h2>
+        <p>
+            Echovision helps you see and hear the world more clearly — your voice, it's vision, perfectly in sync. Echovision understands you — with eyes that see and ears that truly listen.
+          
+        </p>
+        <p>.</p>
+        <div class="contact-info" id="Help">
+            <div>
+              <h4>Get In Touch</h4>
+              <p>Monday – Friday<br>10:00 am — 6:00 pm</p>
+              <p><a href="mailto:youremail@example.com">EchoVision@gmail.com</a></p>
+              <p>+91-7011-934298</p>
+            </div>
+      
+            <form id="contactForm">
+              <h4>Sign Up With Us</h4>
+              <input type="text" id="name" name="name" placeholder="Full Name *" required />
+              <input type="email" id="email" name="email" placeholder="Email *" required />
+              <textarea id="message" name="message" rows="4" placeholder="Your FeedBack (optional)"></textarea>
+              <button type="submit">Submit Request</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <py-script src="voice_assistant.py"></py-script>
+    
+      <script src="script.js"></script>
+</body>
+</html>
